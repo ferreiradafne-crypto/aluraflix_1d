@@ -1,62 +1,60 @@
-
-corpo {
-    cor: branco;
-    fundo: preto;
-    margem: 0px;
-    família da fonte: "Chakra Petch", sem serifa;
-    margem inferior: 100px;
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
-cabeçalho {
-    borda inferior: sólido 2px rgb(42, 122, 228);
-    preenchimento: 20px;
-    tamanho da fonte: 32px;
-    cor: rgb(42, 122, 228);
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
 }
 
 .chamada {
-    fundo: rgb(184, 156, 213);
-    preenchimento inferior: 80px;
-    preenchimento superior: 80px;
-    exibição: flex;
-    justificar conteúdo: centralizar;
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .chamada-texto {
-    margem direita: 5%;
+    margin-right: 5%;
 }
 
 h1 {
-    tamanho da fonte: 40px;
+    font-size: 40px;
 }
 
 p {
-    tamanho da fonte: 20px;
+    font-size: 20px;
 }
 
 .categoria-videos {
-    exibição: flex;
-    estouro-x: automático;
-    lacuna: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
 .categoria {
-    preenchimento esquerdo: 20px;
-    preenchimento direito: 20px;
-    margem superior: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-.categoria-vídeos img {
-    opacidade: 0,5;
-    altura: 200px;
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
 }
 
-.categoria-vídeos img:hover {
-    opacidade: 1,0;
-    borda: 3px verde sólido;
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
 }
 
 .categoria h2 {
-    cor: rgb(255, 0, 169);
+    color: rgb(42, 122, 228);
 }
-
