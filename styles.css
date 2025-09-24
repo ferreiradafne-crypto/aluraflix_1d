@@ -1,4 +1,4 @@
-
+corpo {
 corpo {
     cor: branco;
     fundo: preto;
@@ -11,7 +11,7 @@ cabeçalho {
     borda inferior: sólido 2px rgb(42, 122, 228);
     preenchimento: 20px;
     tamanho da fonte: 32px;
-    cor: rgb(238, 129, 239);
+    cor: rgb(42, 122, 228);
 }
 
 .chamada {
@@ -41,9 +41,9 @@ p {
 }
 
 .categoria {
-    preenchimento-esquerda: 20px;
-    preenchimento-direita: 20px;
-    margem-superior: 50px;
+    preenchimento esquerdo: 20px;
+    preenchimento direito: 20px;
+    margem superior: 50px;
 }
 
 .categoria-vídeos img {
@@ -57,5 +57,6 @@ p {
 }
 
 .categoria h2 {
-    cor: rgb(42, 122, 228);
+    cor: rgb(255, 0, 169);
 }
+
